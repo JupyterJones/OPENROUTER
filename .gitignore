@@ -1,0 +1,23 @@
+
+# Added by fix_git.py
+*.db
+*.sqlite
+*.sqlite3
+venv/
+video/
+versions/
+videos/
+.env
+.env.*
+secrets.json
+config.json
+*.pem
+*.key
+*.crt
+*.bak
+*.old
+*.swp
+*.tmp
+.DS_Store
+Thumbs.db
+
