@@ -36,9 +36,13 @@ We recommend running this project inside **Ubuntu on WSL2** (Windows Subsystem f
 
 Using a virtual environment (`venv`) keeps your dependencies isolated from your operating system's global Python packages.
 
+
+
+
 ### Step 1: Open your terminal and navigate to the project directory
 ```bash
-cd /path/to/OPENROUTER  # replace with your actual cloned repo path
+git clone git@github.com:JupyterJones/OPENROUTER.git
+cd OPENROUTER  # replace with your actual cloned repo path
 ```
 
 ### Step 2: Create a virtual environment
