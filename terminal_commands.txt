@@ -1,0 +1,16 @@
+python3 html_to_scrolling_video.py thinkingmachines_large_storyv1.html --voice am_michael --output SyntheticLocomotion_narrated_by_michael_whisper.mp4
+
+
+python3 html_to_scrolling_video.py thinkingmachines_story_v31.html --voice am_michael --output The_Manifestation_Codex_narrated_by_michael_whisper.mp4
+
+
+python3 html2scrolling_video_nosubs.py thinkingmachines_story_v31.html --voice am_michael --output The_Manifestation_Codex_narrated_by_michael_whisper_nosubs.mp4
+
+--
+python3 html2scrolling_video_nosubs.py The_Emergence_of_Kira-7.html --voice bf_emma --output The_Emergence_of_Kira-7_nosubs.mp4
+
+
+python3 html2scrolling_video_nosubs.py thinkingmachines_story67.html --voice am_michael --output thinkingmachines_story67nosubs.mp4
+
+
+python3 html2scrolling_video_nosubs.py thinkingmachines_large_story.html --voice am_michael --output thinkingmachines_large_story_nosubs.mp4

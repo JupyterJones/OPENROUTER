@@ -1,0 +1,12 @@
+# Core TTS and Automatic Speech Recognition
+kokoro-tts>=2.3.0
+openai-whisper>=20231117
+torch>=2.0.0
+
+# HTML Parsing and Document Processing
+beautifulsoup4>=4.12.0
+
+# Image and Audio Processing
+pillow>=10.0.0
+numpy>=1.24.0
+soundfile>=0.12.0

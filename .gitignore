@@ -1,23 +1,23 @@
-
-# Added by fix_git.py
-*.db
-*.sqlite
-*.sqlite3
-venv/
-video/
-versions/
-videos/
+# Environment variables and API keys
 .env
 .env.*
-secrets.json
-config.json
-*.pem
-*.key
-*.crt
-*.bak
-*.old
-*.swp
-*.tmp
-.DS_Store
-Thumbs.db
+!.env.example
 
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+*.venv/
+
+# Large media outputs and temporary rendering files
+videos/
+*.wav
+temp_*
+*.png
+!sample_*.png
+*.log
+
+# Large binary AI model weights
+*.onnx
+*.bin
